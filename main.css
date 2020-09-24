@@ -1,0 +1,45 @@
+h1 {
+    text-decoration: underline
+}
+h1:hover {
+    color:rgb(60, 255, 0);
+    font-style: bold;
+    font-family:monospace;
+    text-decoration: underline;
+    text-shadow: 3px 4px 5px rgba(206,89,55,0.76);
+   
+
+}
+
+ul.menu {
+    display:flex;
+}
+
+ul.menu li {
+    list-style-type: none;
+    min-width: 70px;
+    margin: 10px;
+}
+
+.theme-dark {
+    background-color:#000;
+    color:#fbff00;
+}
+
+.first-letter { /* toto */
+    font-weight: 700;
+    font-size: 30px;
+    color: purple;
+    font-style: normal;
+    
+}
+
+.exemple {
+    font-style: italic;
+    color: black;
+    background: url(https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&w=1000&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top: 10px solid yellow;
+}
